@@ -1,0 +1,168 @@
+@import url(font-awesome.min.css);
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                    Login Form                     ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.login-form-modal {
+    background: #fff;
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 0.75);
+}
+
+    h5 {
+        display: block;
+        text-align: center;
+        font: 700 1.125rem 'News Cycle', Arial, Helvetica, sans-serif;
+        color: #000;
+    }
+    
+    .login-form-modal form {
+        background: #fff;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+        .login-form-modal form span {
+            padding: 2px 0;
+            margin: 16px 0;
+            display: block;
+            border: solid 1px #ededed;
+            border-radius: 5px;
+        }
+
+            .login-form-modal form span input {
+                width: 90%;
+                height: 35px;
+                padding: 0 0 0 10px;
+                border: none;
+                border-radius: 5px;
+                font: 100 0.875rem 'Open Sans'
+            }
+
+            .login-form-modal form span input:hover,
+            .login-form-modal form span input:focus {
+                outline: none;
+            }
+
+            .login-form-modal form span i {
+                line-height: 35px;
+                text-align: center;
+                width: 10%;
+                height: 35px;
+                border-radius: 5px;
+                border-right: none;
+                color: #8c8c8c;
+            }
+
+            .login-form-button {
+                background-color: #2561d0;
+                padding: 5px 20px;
+                border: none;
+                color: #fff;
+                font: 500 0.875rem 'News Cycle';
+                border-radius: 5px;
+                box-shadow: 0px 3px 0px 0px rgba(40, 49, 66, 1);
+                float: right;
+                margin: 5px 0;
+            }
+
+            .login-form-button:hover {
+                box-shadow: 0px 3px 0px 0px rgba(40, 49, 66, 1);
+                background: #15356e;
+                cursor: pointer;
+            }
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::               Corretor's Form                     ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.broker-form {
+    background: #fff;
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 0.75);
+}
+
+.broker-form form input,
+.broker-form form textarea,
+.broker-form form span{
+    font: 100 0.875rem 'Open Sans';
+}
+
+.broker-form h4 {
+    font: 700 1.125rem 'News Cycle', Arial, Helvetica, sans-serif;
+    color: #283142;
+}
+
+.broker-form h5 {
+    color: #2561d0;
+}
+
+.broker-form input[type="text"],
+.broker-form form input[type="email"],
+.broker-form form input[type="tel"],
+.broker-form form textarea {
+    display: block;
+    width: 100%;
+    padding: 2px 0 2px 10px;
+    margin: 16px 0;
+    border: solid 1px #ededed;
+    border-radius: 5px;
+    height: 35px;
+    resize: none;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                    Partner's                      ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#partners {
+    
+}
+
+#partners a {
+    padding: 20px;
+    display: block;
+    background: #509b44;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font: 100 1.125rem 'News Cycle', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px 0px rgba(33, 77, 9, 1);
+    border-radius: 10px;
+    width: 200px;
+}
+
+#partners a:hover {
+    background: #214d09;
+    color: #fff;
+}
+
+#sitemap {
+    background: #283142;
+    color: #fff;
+}
+
+#sitemap li {
+    list-style: none;
+}
+
+#sitemap li h5 {
+    color: #fff;
+    text-align: left;
+}
+
+#sitemap li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    font: 100 0.875rem Arial, Helvetica, sans-serif;
+}

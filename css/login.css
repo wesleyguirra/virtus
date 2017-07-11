@@ -1,0 +1,114 @@
+@import url(font-awesome.min.css);
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                    Login Form                     ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+    body {
+        background: url(../img/footer_lodyas.png);
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    form {
+        background: #fff;
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+
+        form span {
+            margin: 16px 0;
+            display: block;
+            border: solid 1px #ededed;
+            border-radius: 5px;
+        }
+
+            form span input {
+                height: 47px;
+                width: 235px;
+                padding: 0 0 0 10px;
+                border: none;
+                border-radius: 5px;
+                font: 100 0.875rem 'Open Sans'
+            }
+
+           form span input:hover,
+           form span input:focus {
+                outline: none;
+            }
+
+           form span i {
+                line-height: 47px;
+                text-align: center;
+                width: 35px;
+                height: 35px;
+                border-radius: 5px;
+                color: #8c8c8c;
+            }
+
+            form a {
+                float: right;
+                padding: 0 10px;
+                line-height: 47px;
+                font: 100 1rem 'News Cycle';
+                color: #15356e;
+                text-decoration: none;
+            }
+
+            .login-form-button {
+                background-color: #2561d0;
+                padding: 5px 20px;
+                border: none;
+                color: #fff;
+                font: 500 0.875rem 'News Cycle';
+                border-radius: 5px;
+                box-shadow: 0px 3px 0px 0px rgba(40, 49, 66, 1);
+                float: right;
+            }
+
+            .login-form-button:hover {
+                box-shadow: 0px 3px 0px 0px rgba(40, 49, 66, 1);
+                background: #15356e;
+                cursor: pointer;
+                clear: both;
+            }
+
+            .clearfix {
+                clear: both;
+            }
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::
+::                     Message                       ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+.e-message {
+    color: #ed432e;
+    font: 100 1rem 'News Cycle';
+    position: relative;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.s-message {
+    color: #48ac64;
+    font: 100 1rem 'News Cycle';
+    position: relative;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.a-message {
+    color: #ffb404;
+    font: 100 1rem 'News Cycle';
+    position: relative;
+    display: block;
+    padding: 20px;
+    text-align: center;
+}

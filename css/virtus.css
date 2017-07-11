@@ -1,0 +1,307 @@
+#top-bar {
+    background: #f4f4f4;
+}
+
+    #top-bar ul {
+        margin: 1px !important;
+    }
+
+        #top-bar li {
+            display: inline-block;
+            padding: 0px 15px;
+            margin: 0 !important;
+            font: 700 0.875rem 'News Cycle', Arial, Helvetica, sans-serif;
+            color: #283142;
+            text-transform: uppercase;
+        }
+
+            #top-bar a {
+                color: #2561d0;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+.head {
+    padding: 20px 0;
+}
+
+/* Separador Entre fale conosco e telefone de emergencia */
+.e-phones div:nth-child(3) img {
+    padding-left: 32px;
+    border-left: solid 1px #002555;
+}
+
+#mobile-anchor i {
+    background: #265abb;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    -o-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+}
+
+#mobile-anchor i:hover,
+#mobile-anchor i:focus {
+    color: #fff;
+    background: #4179e0;
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(41, 75, 138, 1);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(41, 75, 138, 1);
+    -o-box-shadow: 0px 4px 0px 0px rgba(41, 75, 138, 1);
+    box-shadow: 0px 4px 0px 0px rgba(41, 75, 138, 1);
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 220px;
+    height: 100%;
+    background: #283142;
+    -webkit-box-shadow: inset -10px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset -10px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: inset -10px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: inset -10px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+    menu ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        menu li {
+            list-style: none;    
+        }
+
+            menu li a {
+                margin: 0 10px;
+                padding: 10px;
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                font: 100 0.750rem 'Open Sans', Arial, Helvetica, sans-serif;
+                text-transform: uppercase;
+            }
+
+            menu li a:hover {
+                background-color: #fff !important;
+                color: #283142;
+            }
+
+section, footer {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+menu {
+    -webkit-transform: translateX(-220px);
+    -moz-transform: translateX(-220px);
+    -o-transform: translateX(-220px);
+    transform: translateX(-220px);
+}
+
+.menu-active section,
+.menu-active footer {
+    -webkit-transform: translateX(220px);
+    -moz-transform: translateX(220px);
+    -o-transform: translateX(220px);
+    transform: translateX(220px);
+}
+
+.menu-active menu {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+#menu-medium {
+    background: #283142;
+    border-bottom: solid 1px #7e7e7e;
+}
+
+    #menu-medium ul {
+        margin:  0;
+        padding: 0;
+    }
+
+        #menu-medium li {
+            display: inline-block;
+            padding: 5px 15px;
+        }
+
+        #menu-medium li:last-child,
+        menu ul li:last-child a {
+            background-color: #2561d0;
+        }
+
+            #menu-medium li a {
+                font: 0 1.125rem Arial, Helvetica, sans-serif;
+                color: #fff;
+                text-decoration: none;
+            }
+
+#slider {
+    background: url(../img/footer_lodyas.png);
+    border-bottom: solid 1px #7e7e7e;
+}
+
+#slider img{
+    width: 100%;
+}
+
+#vantages,
+#content {
+    background: url(../img/footer_lodyas.png);
+}
+
+#content {
+    -webkit-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2) !important;
+    -moz-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2) !important;
+    -o-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2) !important;
+    box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2) !important;
+}
+
+    #vantages h1 {
+        font: 700 2rem 'News Cycle', Arial, Helvetica, sans-serif;
+        margin: 5px 0;
+        text-align: center;
+        color: #fff;
+    }
+
+    #vantages h2 {
+        font: 100 1.2rem 'Open Sans', Arial, Helvetica, sans-serif;
+        margin: 0;
+        text-align: center;
+        color: #7e7e7e;
+        padding: 15px 0 !important;
+    }
+
+    #content h4 {
+        padding: 5px 0;
+        margin: 50px 0;
+        width: 100% !important;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        font: 100 1.125rem 'Open Sans', Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    #content span {
+        text-align: center;
+        display: block;
+
+    }
+
+        #content span i {
+            display: inline;
+            font: 100 4rem '';
+            color: #fff;
+            border: none;
+        }
+
+            #content span i h3 {
+                text-align: center;
+                font: 100 1.2rem 'Open Sans', Arial, Helvetica, sans-serif;
+            }
+
+#primary-footer {
+    background: #2561d0;
+    -webkit-box-shadow: 0px 15px 0px 0px rgba(40, 49, 66, 1);
+    -moz-box-shadow: 0px 15px 0px 0px rgba(40, 49, 66, 1);
+    -o-box-shadow: 0px 15px 0px 0px rgba(40, 49, 66, 1);
+    box-shadow: 0px 15px 0px 0px rgba(40, 49, 66, 1);
+}
+    
+    #primary-footer div a {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        color: #fff;
+    }
+
+#more-links {
+    background: #002555;
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    -o-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+}
+
+    #more-links div a {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        color: #fff;
+    }
+
+#links {
+    background: #202020;
+    -webkit-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    -moz-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    -o-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+    box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 0px 0px rgba(40, 49, 66, 1);
+}
+
+footer {
+    background: #002555;
+}
+
+footer ul {
+    display: block;
+}
+
+footer li {
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    color: #8c8c8c;
+    list-style: none;
+}
+
+footer li i {
+    padding: 0 15px 0 0;
+}
+
+footer li a {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+#bottom {
+    -webkit-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 5px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+#bottom li {
+    text-align: left;
+    display: block;
+}
+
+#bottom p {
+    color: #fff;
+    line-height: 15px;
+}
+
+#bottom a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#bottom p i {
+    padding: 5px 15px;
+}
+
